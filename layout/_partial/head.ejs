@@ -1,0 +1,27 @@
+<head>
+    <% var subtitle; %>
+    <% if (is_home()) { %>
+    <% subtitle = "主页"; %>
+    <% } else if (is_current("category")) { %>
+    <% subtitle = "分类"; %>
+    <% } else if (is_current("recent")) { %>
+    <% subtitle = "最近"; %>
+    <% } else if (is_current("about")) { %>
+    <% subtitle = "关于"; %>
+    <% } %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="author" content="<%- config.author %>">
+    <meta name="renderer" content="webkit">
+    <meta name="copyright" content="<%- config.author %>">
+    <meta name="keywords" content="<%- config.keywords %>">
+    <meta name="description" content="<%- config.description %>">
+    <meta name="subtitle" content="<%- config.subtitle %>">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title><%= subtitle + " | " + config.title %></title>
+    <link rel="icon" href= "<%- url_for(theme.favicon) %>" />
+    <%- css('css/style.css') %>
+    <%- js('js/jquery-3.3.1.min.js') %>
+    <%- js('js/horse.js') %>
+</head>

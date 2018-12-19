@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <%- partial('_partial/head') %>
+    <body>
+        <%- partial('_partial/header') %>
+        <% if (is_home()) { %>
+        <%- partial('index') %>
+        <% } %>
+    </body>
+</html>

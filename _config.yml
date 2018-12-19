@@ -1,0 +1,16 @@
+menu:
+  主页: / #主页
+  分类: /category #分类
+  最近: /recent #最近
+  关于: /about #关于
+
+# 网站图标
+favicon: /images/favicon.jpg
+logo: /images/logo.png
+
+# 上方展示图片
+loading: /images/loading1.jpg
+header_home_image: /images/show1.jpg
+header_category_image: /images/show2.jpg
+header_recent_image: /images/show3.jpg
+header_about_image: 
