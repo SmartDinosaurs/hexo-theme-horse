@@ -44,7 +44,7 @@ $(document).ready(function(){
             }
             ScrollPlay();
             _before_index = _index;
-        }, 3000);
+        }, 5000);
     }
 
     function ScrollPlay() {
