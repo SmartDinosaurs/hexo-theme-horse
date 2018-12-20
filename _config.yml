@@ -1,3 +1,12 @@
+# 配置
+title: 小恐龙 #标题
+subtitle: 年轻人的IT启蒙者 #副标题
+description:  小恐龙教育致力于启蒙年轻人的IT中国梦 #描述
+keywords: 小恐龙教育,小恐龙,教育,IT,游戏,PS #关键字
+author: 站长小钢蛋 #作者
+language: zh-Hans #语言
+
+# 分页
 menu:
   主页: / #主页
   分类: /category #分类
