@@ -9,8 +9,8 @@ favicon: /images/favicon.jpg
 logo: /images/logo.png
 
 # 上方展示图片
-loading: /images/loading1.jpg
-header_home_image: /images/show1.jpg
-header_category_image: /images/show2.jpg
-header_recent_image: /images/show3.jpg
+loading: /images/img_load1.jpg
+header_home_image: /images/home_img1.jpg
+header_category_image: /images/home_img2.jpg
+header_recent_image: /images/home_img3.jpg
 header_about_image: 
